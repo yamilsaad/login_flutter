@@ -19,11 +19,15 @@ class _LoginPageState extends State<LoginPage> {
           mainAxisAlignment:
               MainAxisAlignment.center, //centra todo el body en la pantalla
           children: [
+            Icon(
+              Icons.flutter_dash,
+              size: 100,
+            ),
+            SizedBox(height: 70),
             //Hello again
             Text('Hello Again!',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 36,
+                style: GoogleFonts.bebasNeue(
+                  fontSize: 55,
                 )),
             Text(
               'Wellcome back, you\'ve been missed',
