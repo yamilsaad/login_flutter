@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 SizedBox(height: 70),
                 //Hello again
-                Text('Hello Again!',
+                Text('Hola otra vez!',
                     style: GoogleFonts.bebasNeue(
                       fontSize: 55,
                     )),
